@@ -27,6 +27,7 @@ def apply_coupons(cart, coupons)
       elseif cart[item][:count] >= coupon[:num] && cart.has_key?("#{item} W/COUPON")
        cart["#{item} W/COUPON"][:count] += coupon[:num]
       end 
+      
     end 
   end 
  cart 
