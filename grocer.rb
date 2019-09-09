@@ -20,6 +20,8 @@ def consolidate_cart(cart)
 end
  
 def apply_coupons(cart, coupons)
+  coupons.each do ||
+  end 
   binding.pry 
 end
 
