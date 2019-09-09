@@ -22,7 +22,9 @@ def apply_coupons(cart, coupons)
   coupons.each do |coupon|
     item = coupon[:item]  
     coupon_item = "#{item} W/COUPON"
-    
+    if cart.has_key?(item) 
+      
+    end
   end 
  cart 
 end
