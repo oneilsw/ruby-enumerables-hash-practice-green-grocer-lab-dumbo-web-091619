@@ -22,6 +22,8 @@ end
 def apply_coupons(cart, coupons)
   coupons.each do |coupon|
     item = coupon[:item]  
+    if 
+    end 
   end 
   binding.pry 
 end
